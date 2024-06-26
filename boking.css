@@ -1,0 +1,539 @@
+body {text-transform: capitalize;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bg1 {
+  font-size: 20PX;
+
+
+}
+.head2{
+  padding: 3% 0% 0% 0%;
+}
+.cardenquery{
+  text-align: center;
+}
+#con1 {
+  padding: 0%;
+}
+
+#logo1 {
+  width: 100%;
+}
+
+#footer1 {
+  display: flex;
+  font-size: 15px;
+}
+
+.contact { padding: 3%;
+  float: right;
+}
+
+#img33 {
+  height: 500px;
+}
+
+.card4 {text-align: center;
+  padding: 2%;
+  box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.349);
+  transition: 0.3s;
+  width: 100%;
+  line-height: 3;
+
+}
+.overflow{
+  margin-right: 15px;
+}
+.card {
+  padding: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 80%;
+  line-height: 3;
+
+}
+
+.card:hover {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.349);
+}
+
+#input {
+  width: 90%;
+
+  border: none;
+}
+
+.input2 {
+  width: 90%;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 400px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 400px;
+}
+
+.gmap_iframe {
+  height: 400px !important;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: green;
+
+}
+
+
+.button4 {
+  font-weight: bold;
+  padding: 5px 17px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color: #0cb376;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px rgba(153, 153, 153, 0.329);
+  margin: 8% 8% 0% 0%;
+  font-family: 'Aleo';
+}
+
+.button4:hover {
+  background-color: #3e8e41
+}
+
+.button4:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px rgba(102, 102, 102, 0.445);
+  transform: translateY(5px);
+}
+
+.slider {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: 1;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  padding: 2px 16px;
+  height: 300px;
+}
+
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sidepanel {
+  display: none;
+}
+
+.openbtn {
+  display: none;
+}
+
+.footer1 {
+  padding-top: 5%;
+  background-color: #111;
+  margin-top: 5%;
+  text-align: center;
+  color: white;
+}
+
+.colorfoter {
+  color: yellow;
+  text-transform: uppercase;
+}
+
+#fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 10%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+#fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* Set a style for all buttons */
+
+
+.footer1 {
+  text-align: left;
+  line-height: 2;
+}
+
+.pos {width: 100%;
+  padding: 1%;
+  position: absolute;
+  left: 0px;
+  top: 35%;
+  z-index: 1;
+  color: white;
+  background-color: rgba(17, 17, 17, 0.548);
+}
+.inputform{
+  margin-top: 3%;
+  width: 80%;
+}
+.imgplan {
+  width: 100%;
+  height: 200px;
+}
+
+.card5 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  padding: 2px 16px;
+  height: 300px;
+  margin-top: 5%;
+}
+.innovac{text-align: center;
+         padding: 5%;}
+         .slide2{width: 100%;
+          height: 150px;
+        }
+.content{margin: 4% 0% 4% 0%;}
+@media only screen and (max-width: 450px) {
+
+
+  #con1 {text-align: center;
+    display: inline;
+  }
+
+  #head3 {
+    text-align: center;
+  }
+
+  #img33 {
+    height: 300px;
+
+  }
+
+  #con1 {
+    text-align: center;
+  }
+
+  .card {
+    margin-left: 10%;
+  }
+
+  #logo1 {float: left;
+    width: 20%;
+  }
+
+  .topnav {
+    display: none;
+  }
+
+  #fo {
+    float: none;
+  }
+.bg1 {
+  font-size: 10PX;
+
+
+}
+  .sidepanel {
+    display: block;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  .head{
+    display: flex;
+  }
+  .openbtn {
+    display: block;
+    position: absolute;
+    width: 10%;
+    padding-top: 15%;
+    font-size: 5px;
+    cursor: pointer;
+    background-color: rgba(17, 17, 17, 0.658);
+    color: white;
+    padding: 10px 0px;
+    border: none;
+  }
+
+  .openbtn:hover {
+    background-color: #444;
+  }
+
+  .footer1 {
+    padding-top: 5%;
+    background-color: darkblue;
+    margin-top: 18%;
+    text-align: center;
+    color: white;
+  }
+
+  .card2 {
+    font-size: 10px;
+    height: 290px;
+  }
+
+  .cancelbtn,
+  .signupbtn {
+    width: 100%;
+  }
+  .pos {width: 100%;
+    font-size: 15px;
+    padding: 1%;
+    position: absolute;
+    left: 0px;
+    top: 25%; 
+    z-index: 1;
+    color: white;
+    background-color: rgba(17, 17, 17, 0.548);
+  }
+}
+
+@media only screen and (min-width: 451px) and (max-width:770px) {
+
+
+
+  #head3 {
+    text-align: center;
+  }
+
+  #img33 {
+    height: 400px;
+  }
+
+  #logo1 {float: left;
+    width: 20%;
+  }
+  .bg1 {
+    font-size: 10PX;
+  
+  
+  }
+  .card {
+    margin-left: 10%;
+  }
+
+  .topnav {
+    display: none;
+  }
+
+  #fo {
+    float: none;
+  }
+
+  #con1 {
+    text-align: center;
+  }
+
+  .sidepanel {
+    display: block;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+.head{
+  display: flex;
+}
+  .openbtn {
+    display: block;
+    position: absolute;
+    width: 10%;
+    padding-top: 15%;
+    font-size: 10px;
+    cursor: pointer;
+    background-color: rgba(17, 17, 17, 0.658);
+    color: white;
+    padding: 10px 0px;
+    border: none;
+  }
+
+  .openbtn:hover {
+    background-color: #444;
+  }
+
+  .footer1 {
+    padding-top: 5%;
+    background-color: darkblue;
+    margin-top: 15%;
+    text-align: center;
+    color: white;
+  }
+
+  .card2 {
+    font-size: 10px;
+    height: 250px;
+  }
+
+  .cancelbtn,
+  .signupbtn {
+    width: 100%;
+  }
+  .pos {width: 100%;
+    font-size: 17px;
+    padding: 1%;
+    position: absolute;
+    left: 0px;
+    top: 30%;
+    z-index: 1;
+    color: white;
+    background-color: rgba(17, 17, 17, 0.548);
+  }
+}
+@media only screen and (min-width: 771px) and (max-width:1024px) {
+
+ 
+
+  #img33 {
+    height: 400px;
+  }
+
+  #logo1 {float: left;
+    width: 100%;
+  }
+
+  .card {
+    margin-left: 10%;
+  }
+
+  
+  .pos {width: 100%;
+    padding: 1%;
+    position: absolute;
+    left: 0px;
+    top: 30%;
+    z-index: 1;
+    color: white;
+    background-color: rgba(17, 17, 17, 0.548);
+  }
+
+}
